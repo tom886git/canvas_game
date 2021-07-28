@@ -115,8 +115,8 @@ function init(){
     projectiles = []
     enemies = []
     particles = []
-    scoreEl.innerHTML = score
-    bigscoreEl.innerHTML = score
+    scoreEl.innerHTML = 0
+    bigscoreEl.innerHTML = 0
 }
 
 let timerId
